@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hola template</title>
+    <meta property="og:title" content="Hola template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Space Grotesk;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="home-container">
+        <div class="home-navbar">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <div class="home-branding">
+              <span class="home-text">Daylily Informatics</span>
+            </div>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="home-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <div class="home-right">
+                  <div class="nav-links-links">
+                    <span class="nav-links-link navLink">
+                      <span>blog</span>
+                    </span>
+                    <span class="nav-links-link1 navLink">
+                      <span>git</span>
+                    </span>
+                    <span class="navLink"><span>contact</span></span>
+                  </div>
+                  <div class="home-button">
+                    <button class="home-work-with-us button">
+                      <span class="home-text001">work with us</span>
+                      <img
+                        alt="image"
+                        src="public/playground_assets/hamburger.svg"
+                        class="home-image"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <button class="home-work-with-us1 button">
+                <span class="home-text002">work with us</span>
+                <img
+                  alt="image"
+                  src="public/playground_assets/hamburger.svg"
+                  class="home-image01"
+                />
+              </button>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav1"
+              >
+                <div class="home-top">
+                  <div class="home-branding1">
+                    <span class="home-text003">hola studio</span>
+                  </div>
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="home-middle"
+                >
+                  <div class="home-links">
+                    <span class="navLink">work</span>
+                    <span class="navLink">services</span>
+                    <span class="navLink">contact</span>
+                  </div>
+                  <button class="home-work-with-us2 button">
+                    <span class="home-text004">work with us</span>
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="home-hero">
+          <div class="home-header">
+            <h1 class="home-text005">
+              <span class="home-text006">
+                Expert translational informatics services with deep experience
+                in:&nbsp;
+              </span>
+              <br class="home-text007" />
+              <span class="home-text008">&nbsp; ⁃&nbsp; genomics</span>
+              <br class="home-text009" />
+              <span class="home-text010">&nbsp; ⁃&nbsp; bioinformatics</span>
+              <br class="home-text011" />
+              <span class="home-text012">
+                &nbsp; ⁃&nbsp; clinical operations
+              </span>
+              <br class="home-text013" />
+              <span class="home-text014">
+                &nbsp; ⁃&nbsp; regulatory &amp; compliance
+              </span>
+              <br class="home-text015" />
+              <span class="home-text016">&nbsp;&nbsp;</span>
+              <span class="home-text017">
+                ⁃&nbsp; training and 3rd party audits
+              </span>
+              <br class="home-text018" />
+              <span class="home-text019">
+                &nbsp; ⁃&nbsp; analysis pipeline design &amp;&nbsp;
+              </span>
+              <span class="home-text020">optimization</span>
+              <br class="home-text021" />
+              <span>&nbsp; ⁃&nbsp;</span>
+              <span class="home-text023">
+                general informatics consulting services&nbsp;
+              </span>
+              <br />
+              <br />
+              <span>&nbsp;</span>
+              <br />
+            </h1>
+          </div>
+          <button class="home-work-with-us3 button">
+            <span class="home-text028">work with us</span>
+            <img
+              alt="image"
+              src="public/playground_assets/hamburger.svg"
+              class="home-image02"
+            />
+          </button>
+          <div class="home-hero-image">
+            <img
+              alt="image"
+              src="public/playground_assets/screen%20shot%202023-04-19%20at%209.24.37%20pm-1200w.png"
+              class="home-image03"
+            />
+          </div>
+        </div>
+        <div class="home-information">
+          <div class="home-purpose">
+            <span class="home-caption">What we do</span>
+            <span class="home-description">
+              Daylily Informatics brings over 30 years of expertise in
+              translational informatics to the table. Principles have been
+              contributors in designing and scaling up informatics and
+              operations infrastructure to support projects such as the
+              finishing effort of the human genome project, development of the
+              first generation Pacific Biosciences Sequencer and shepherding
+              Invitae through several orders of magnitude of growth. Our skill
+              set ranges from working with lab processes &amp; personnel to
+              analytics &amp; algorithm development.&nbsp;
+            </span>
+          </div>
+          <div class="home-industries">
+            <span class="home-caption1">AREAS OF FOCUS</span>
+            <div class="home-list">
+              <div data-role="accordion-container" class="home-item">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text029">Perspiciatis</span>
+                  <span class="home-text030">Nemo voluptatem</span>
+                  <span class="home-text031">Dolore magnam</span>
+                  <span class="home-text032">Tempora</span>
+                  <span class="home-text033">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item1">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text034">Perspiciatis</span>
+                  <span class="home-text035">Nemo voluptatem</span>
+                  <span class="home-text036">Dolore magnam</span>
+                  <span class="home-text037">Tempora</span>
+                  <span class="home-text038">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item2">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text039">Perspiciatis</span>
+                  <span class="home-text040">Nemo voluptatem</span>
+                  <span class="home-text041">Dolore magnam</span>
+                  <span class="home-text042">Tempora</span>
+                  <span class="home-text043">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item3">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text044">Perspiciatis</span>
+                  <span class="home-text045">Nemo voluptatem</span>
+                  <span class="home-text046">Dolore magnam</span>
+                  <span class="home-text047">Tempora</span>
+                  <span class="home-text048">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item4">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text049">Perspiciatis</span>
+                  <span class="home-text050">Nemo voluptatem</span>
+                  <span class="home-text051">Dolore magnam</span>
+                  <span class="home-text052">Tempora</span>
+                  <span class="home-text053">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item5">
+                <div data-role="accordion-content" class="accordion-content">
+                  <span class="home-text054">Perspiciatis</span>
+                  <span class="home-text055">Nemo voluptatem</span>
+                  <span class="home-text056">Dolore magnam</span>
+                  <span class="home-text057">Tempora</span>
+                  <span class="home-text058">Reprehenderit qui</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item6">
+                <div
+                  data-role="accordion-trigger"
+                  class="home-trigger accordion-trigger accordion-trigger-active"
+                >
+                  <span class="home-title">Tech Startup</span>
+                </div>
+                <div
+                  data-role="accordion-content"
+                  class="accordion-content accordion-content-active"
+                >
+                  <span class="home-text059">Technology Advising</span>
+                  <span class="home-text060">Culture</span>
+                  <span class="home-text061">Cloud Migration</span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item7">
+                <div
+                  data-role="accordion-trigger"
+                  class="home-trigger1 accordion-trigger accordion-trigger-active"
+                >
+                  <span class="home-title1">Clinical Operations</span>
+                </div>
+                <div
+                  data-role="accordion-content"
+                  class="accordion-content accordion-content-active"
+                >
+                  <span class="home-text062">
+                    <span>CLIA Certification</span>
+                    <br />
+                    <br />
+                    <span>CAP Accreditation</span>
+                  </span>
+                  <span class="home-text067">Validation Report Drafting</span>
+                  <span class="home-text068">
+                    Process Monitoring and Optimization
+                  </span>
+                </div>
+              </div>
+              <div data-role="accordion-container" class="home-item8">
+                <div
+                  data-role="accordion-trigger"
+                  class="home-trigger2 accordion-trigger accordion-trigger-active"
+                >
+                  <span class="home-title2">Informatics</span>
+                </div>
+                <div
+                  data-role="accordion-content"
+                  class="accordion-content accordion-content-active"
+                >
+                  <span class="home-text069">Algorithm Development</span>
+                  <span class="home-text070">Education</span>
+                  <span class="home-text071">
+                    <span class="home-text072">Pipeline Engineering</span>
+                    <br />
+                    <br />
+                    <span>Benchmarking</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+      /*
+  Accordion - Code Embed
+  */
+
+  /* listenForUrlChangesAccordion() makes sure that if you changes pages inside your app,
+  the Accordions will still work*/
+
+  const listenForUrlChangesAccordion = () => {
+        let url = location.href;
+        document.body.addEventListener(
+          'click',
+          () => {
+            requestAnimationFrame(() => {
+              if (url !== location.href) {
+                runAccordionCodeEmbed();
+                url = location.href;
+              }
+            });
+          },
+          true
+        );
+      };
+
+
+  const runAccordionCodeEmbed = () => {
+      const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
+      const allTriggers = document.querySelectorAll('[data-role='accordion-trigger']'); // All accordion triggers
+      const allContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
+
+      accordionContainers.forEach((container) => {
+        const accordionTrigger = container.querySelector('[data-role='accordion-trigger']'); // Scopped accordion trigger
+        const accordionContent = container.querySelector('[data-role='accordion-content']'); // Scopped accordion content
+
+        accordionTrigger.addEventListener('click', ()=>{
+          /*
+          Uncomment the code bellow to make all the other sections
+          collapse when clicking on one of them.
+
+          allTriggers.forEach(trigger => trigger.classList.remove('accordion-trigger-active'))
+          allContents.forEach(content => content.classList.remove('accordion-content-active'))
+          */
+          if(accordionContent.classList.contains('accordion-content-active')){
+            accordionContent.classList.remove('accordion-content-active');
+            accordionTrigger.classList.remove('accordion-trigger-active')
+          } else {
+            accordionContent.classList.add('accordion-content-active');
+            accordionTrigger.classList.add('accordion-trigger-active')
+          }
+        })
+
+      });
+  }
+
+  runAccordionCodeEmbed()
+  listenForUrlChangesAccordion()
+
+  /*
+  Here's what the above is doing:
+      1. Selects all accordion containers, contents, and icons
+      2. Hides all accordion contents
+      3. Adds an event listener to each accordion container
+      4. When an accordion container is clicked, it:
+          - Hides all accordion contents
+          - Resets all icon transforms to 0deg (default)
+          - Checks if this container has class 'accordion-open'
+              - If it does, it removes class 'accordion-open'
+              - If it doesn't, it:
+                  - Removes class 'accordion-open' from all containers
+                  - Adds class 'accordion-open' to this container
+                  - Shows accordion content
+                  - Rotates accordion icon 180deg
+  */
+</script>
+"
+              ></dangerous-html>
+            </div>
+          </div>
+        </div>
+        <div class="home-section">
+          <div class="home-case-studies">
+            <div class="home-caption2">
+              <span class="home-text077">Experience</span>
+              <div class="home-date-range">
+                <span class="home-text078">2003</span>
+                <span class="home-text079">——</span>
+                <span class="home-text080">Present</span>
+              </div>
+            </div>
+            <div class="home-gallery">
+              <div class="home-row">
+                <div class="home-case">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/study%20%231-1300w.png"
+                    class="home-image04"
+                  />
+                  <div class="home-heading">
+                    <span class="home-text081">
+                      Finishing of the Human genome
+                    </span>
+                  </div>
+                </div>
+                <div class="home-case1">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/study%20%232-1400w.png"
+                    class="home-image05"
+                  />
+                  <div class="home-heading1">
+                    <span class="home-text082">
+                      <span>Contributed To Spinning Up Memorial Sloan</span>
+                      <br />
+                      <span>Kettering's Translational Oncology Core</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <img
+                alt="image"
+                src="public/playground_assets/study%20%233-1400w.png"
+                class="home-image06"
+              />
+              <span class="home-text086">
+                <span class="home-text087">
+                  Invitae Corporations Successful Growth From&nbsp;
+                </span>
+                <br />
+                <span>Startup To Public Company</span>
+                <br />
+              </span>
+              <div class="home-row1">
+                <div class="home-case2"><div class="home-heading2"></div></div>
+                <div class="home-case3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-book">
+          <div class="home-content">
+            <div class="home-left">
+              <h2 class="home-text091">
+                Book a 15 minutes consultation to learn how can we help you
+              </h2>
+              <button class="home-button1 button">
+                <span class="home-text092">book a call</span>
+              </button>
+            </div>
+            <img
+              alt="image"
+              src="public/playground_assets/message.svg"
+              class="home-image07"
+            />
+          </div>
+        </div>
+        <div class="home-section1">
+          <div class="home-about-us">
+            <div class="home-header1">
+              <span class="home-caption3">About us</span>
+            </div>
+            <div class="home-statistics">
+              <div class="home-statistic">
+                <span class="home-text093">30</span>
+                <span class="home-text094">Years of experience</span>
+              </div>
+              <div class="home-statistic1">
+                <span class="home-text095">Enthusiastic</span>
+                <span class="home-text096">OSS Contributor</span>
+              </div>
+              <div class="home-statistic2">
+                <span class="home-text097">Many</span>
+                <span class="home-text098">Co-authored publications</span>
+              </div>
+            </div>
+            <div class="home-gallery1"></div>
+            <div class="home-recruit">
+              <div class="home-sections"><div class="home-section2"></div></div>
+              <button class="home-button2 button">
+                <span class="home-text099">
+                  <span>be part of our team</span>
+                  <br />
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="home-footer">
+          <div class="home-header2">
+            <span class="home-branding2">daylily informatics</span>
+            <div class="home-socials">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link03"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/facebook%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link04"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/twitter%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link05"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/dribbble%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link06"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/instagram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link07"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/linkedin%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link08"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/youtube%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link09"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/telegram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link10"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/medium%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="home-content1">
+            <div class="home-contact">
+              <span class="home-email">info@daylilyinformatics.com</span>
+              <span class="home-number">+1 617.270.7981</span>
+            </div>
+            <div class="home-links-row">
+              <div class="home-links-column"></div>
+              <div class="home-links-column1"></div>
+            </div>
+          </div>
+          <div class="home-locations">
+            <div class="home-location">
+              <span class="home-title3">Careers</span>
+            </div>
+            <div class="home-location1">
+              <span class="home-title4">git</span>
+              <span class="home-details09">
+                <span>115 Turzii Road</span>
+                <br />
+                <span>Cluj Napoca</span>
+                <br />
+                <br />
+                <span>hola_ro@hola.studio</span>
+              </span>
+            </div>
+            <div class="home-location2">
+              <span class="home-title5">Blog</span>
+            </div>
+            <div class="home-location3">
+              <span class="home-title6">Papers &amp; Publications</span>
+              <span class="home-details10">
+                <span>34-36 Carrer de Tele</span>
+                <br />
+                <span>Barcelona</span>
+                <br />
+                <br />
+                <span>hola_sp@hola.studio</span>
+              </span>
+            </div>
+          </div>
+          <div class="home-socials1">
+            <div class="home-row2">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/facebook%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/twitter%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/dribbble%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/instagram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+            </div>
+            <div class="home-row3">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/linkedin%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/youtube%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/telegram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/medium%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
