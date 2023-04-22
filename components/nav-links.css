@@ -8,9 +8,14 @@
 }
 .nav-links-link {
   font-family: Space Grotesk;
+  text-decoration: none;
 }
 .nav-links-link1 {
   font-family: Space Grotesk;
+  text-decoration: none;
+}
+.nav-links-link2 {
+  text-decoration: none;
 }
 @media(max-width: 767px) {
   .nav-links-links {
