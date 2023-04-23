@@ -7,14 +7,17 @@
   justify-content: center;
 }
 .nav-links-link {
+  color: #dcc7aa;
   font-family: Space Grotesk;
   text-decoration: none;
 }
 .nav-links-link1 {
+  color: #dcc7aa;
   font-family: Space Grotesk;
   text-decoration: none;
 }
 .nav-links-link2 {
+  color: #dcc7aa;
   text-decoration: none;
 }
 @media(max-width: 767px) {
